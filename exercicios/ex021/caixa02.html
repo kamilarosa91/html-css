@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(182, 137, 224);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            
+        }
+
+        header{
+            background-color: rgb(205, 192, 218);
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        nav{
+            background-color: rgb(126, 87, 163);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+        }
+
+        nav:hover{
+            text-decoration: underline;
+            margin-right: 30px;
+            
+        }
+
+        main{
+            background-color: rgb(202, 169, 233);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        h2{
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        article{
+            background-color: rgb(205, 192, 218);
+            border-radius: 10px;
+        }
+        
+
+        aside > p{
+            text-align: center;
+            background-color: rgba(137, 43, 226, 0.349);
+            border-radius: 0px 0px 10px 10px;
+            box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.315);
+        }
+
+        footer{
+            text-align: center;
+            background-color: rgb(205, 192, 218);
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        #bola{
+          height: 100px;  
+          width: 100px;
+          background-color: rgb(202, 169, 233);
+          margin: 10px;
+          border-radius: 50%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos" >
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <h2>Notícias sobre o Brasil</h2>
+            <article> 
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo aliquam eligendi impedit accusamus enim voluptates ad quas, quidem repellendus expedita eveniet aspernatur deserunt nemo doloremque in? Eos, ipsum sit. Minima!</p>
+                <aside>
+                    <p>Artigo produzido por Ana Beatriz Rosa</p>
+                </aside>
+
+            </article>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Kamila Rosa</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>
